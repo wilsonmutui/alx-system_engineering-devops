@@ -1,5 +1,3 @@
 #!/bin/bash
-for file in $(find . -maxdepth 1 -name "*.html")
-do
-    [ ! -e "../$(basename $file)" ] || [ $file -nt "../$(basename $file)" ] && cp $file ../
-done
+cp -u *.html ..
+
