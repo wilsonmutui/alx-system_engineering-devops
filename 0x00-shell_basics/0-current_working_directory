@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+#printing_current_working_directory
+
+pwd
